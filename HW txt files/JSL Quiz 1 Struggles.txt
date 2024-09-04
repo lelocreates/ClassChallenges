@@ -1,0 +1,39 @@
+What is a shallow copy vs deep copy?
+
+Deep copy 
+- Creates a new object and copies everything
+- A new memory allocation happens for the new entity and the reference is not copied. 
+- A copy of an entity to create one or more of that entity with 
+- Changes in one entity do not reflect in the other entity
+- Each entity has its own independent reference 
+
+Shallow copy 
+- Creates a new object and copies references to the original object's variables and member references.
+- A copy of an entity to create one or more of that entity 
+- changes in one entity will reflect in the other entities
+- the reference point of the main entity is copied over to the other entities
+
+
+What is dynamic styling?
+Dynamic styling refers to the ability to modify or update the styles or layout of a web page or 
+application dynamically, often in response to user interactions, changes in data, or other events. 
+This can be achieved through various techniques, including manipulating CSS rules, using JavaScript 
+to update styles, or leveraging CSS variables.
+
+What are statements in JavaScript and some examples?
+- Building blocks of programs
+
+- Declaration statements
+    declare functions, variables and classes    
+- Expression statements
+    used to evaluate expressions, such as assigning values to variables or calling functions.
+- Control flow statements
+    used to control the flow of a program, such as conditional statements, loops, and jumps.
+- Block statements
+    used to group multiple statements together, such as in a function or a loop
+- Empty statements
+    used to indicate that no action should be taken
+- Debugger statements
+    used to invoke the debugger
+- Exception handling statements 
+    used to handle exceptions, such as try-catch blocks
