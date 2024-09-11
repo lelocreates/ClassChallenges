@@ -1,3 +1,50 @@
 What are some key principles of OOP?
 
+Object-Oriented Programming (OOP) is a programming paradigm centered around the concept of objects.
+Here are some key principles:
+
+Encapsulation:
+This principle is about bundling the data (attributes) and methods (functions) that 
+operate on the data into a single unit, called a class. It hides the internal state of the object 
+from the outside world and only exposes what is necessary through public methods.
+
+Abstraction: 
+Abstraction involves hiding complex implementation details and showing only the necessary features of an 
+object. This helps in reducing complexity and allows the programmer to focus on interactions at a higher level.
+
+Inheritance: 
+This principle allows a new class (subclass or derived class) to inherit attributes and methods from 
+an existing class (superclass or base class). It promotes code reusability and establishes a natural 
+hierarchy between classes.
+
+Polymorphism: 
+Polymorphism means “many shapes” and allows objects of different classes to be treated as objects 
+of a common superclass. It typically involves method overriding (where a subclass provides a specific
+implementation of a method already defined in its superclass) and method overloading (where multiple 
+methods have the same name but different parameters).
+
+These principles help in designing and organizing code in a way that is modular, reusable, and easier to maintain.
+
+
 What is function hoisting?
+
+Function hoisting is a concept in JavaScript where function declarations are moved, or "hoisted," to 
+the top of their scope (either the global scope or the function scope) before the code is executed. 
+This allows you to call functions before they are defined in the code.
+
+There are two types of functions in JavaScript:
+
+Function Declarations: 
+These are hoisted entirely, meaning both the function name and its body are moved 
+to the top of the scope. So, you can call the function before its declaration.In this case, sayHello() can 
+be called before the function is defined because the entire function is hoisted to the top of the scope.
+
+Function Expressions: 
+These are not hoisted in the same way as declarations. If a function is assigned to a variable, only the
+ variable is hoisted, not the function itself. This means that calling the function before the assignment
+  will result in an error.
+
+Here, the variable greet is hoisted, but it remains undefined until the assignment happens, so calling 
+it before that will throw an error.
+
+In summary, function declarations are fully hoisted, while function expressions are not.
